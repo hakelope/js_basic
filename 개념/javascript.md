@@ -41,3 +41,20 @@ function hello(){
 ```
 
 이러한 구조로 만들어진다.
+
+<br>
+
+---
+
+<br>
+
+### Objects
+
+```javascript
+const 오브젝트명 = {
+    name: "hakelope",
+    sayHello: function (personName) {
+        console.log("hello" + personName);
+    },
+};
+```
