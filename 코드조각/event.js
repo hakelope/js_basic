@@ -8,5 +8,11 @@ function leaved() {
     title.innerText = "휴,,";
 }
 
+function resized() {
+    document.body.style.backgroundColor = "tomato";
+}
+
 title.addEventListener("mouseenter", entered);
 title.addEventListener("mouseleave", leaved);
+
+window.addEventListener("resifze", resized);
